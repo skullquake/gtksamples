@@ -31,7 +31,6 @@ int main(int argc,char *argv[]){
 	gtk_window_set_position(GTK_WINDOW(window),GTK_WIN_POS_CENTER);
 	gtk_window_set_title(GTK_WINDOW(window),"Some Title");
 	gtk_window_set_default_size(GTK_WINDOW(window),320,240);
-	gtk_container_set_border_width(GTK_CONTAINER(window), 15);
 
 	vbox=gtk_vbox_new(FALSE,0);
 	gtk_container_add(GTK_CONTAINER(window),vbox);
